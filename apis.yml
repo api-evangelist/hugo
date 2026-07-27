@@ -1,7 +1,28 @@
 aid: hugo
 name: Hugo
-description: Hugo is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hugo is a mobile-first, usage-based car insurance company that lets drivers
+  turn coverage on and off from their phone and pay in short intervals rather
+  than a large upfront down payment. Through the Hugo app and web portal,
+  customers can activate liability or comprehensive coverage in minutes, get
+  instant proof of insurance, auto-reload their balance, and extend protection
+  as needed. Hugo positions itself as a modern, micropayment alternative to
+  traditional insurers for budget-conscious and gig-economy drivers, and is a
+  seed-stage InsurTech company backed by Canaan Partners. Hugo operates in
+  select U.S. states with expansion underway. Hugo is a consumer insurance
+  application and does not currently publish a public API or developer program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.withhugo.com/images/social.png
 url: https://raw.githubusercontent.com/api-evangelist/hugo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,43 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://withhugo.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Car Insurance
+- Automotive
+- Usage-Based Insurance
+- Micropayments
+- Mobile
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/hugo-domain-security.yml
+- type: Website
+  url: https://withhugo.com
+- type: SignUp
+  url: https://app.withhugo.com/
+- type: Login
+  url: https://app.withhugo.com/
+- type: Support
+  url: https://withhugo.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://withhugo.com/legal
+- type: TermsOfService
+  url: https://withhugo.com/legal
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
