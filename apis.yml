@@ -11,6 +11,17 @@ description: >-
   seed-stage InsurTech company backed by Canaan Partners. Hugo operates in
   select U.S. states with expansion underway. Hugo is a consumer insurance
   application and does not currently publish a public API or developer program.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
